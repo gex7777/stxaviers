@@ -1,0 +1,23 @@
+{
+  "name": "schoolwebsite",
+  "version": "1.0.0",
+  "description": "stxaviers website",
+  "main": "index.js",
+  "dependencies": {
+    "bulma-carousel": "^4.0.24"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gex7777/stxaviers.git"
+  },
+  "author": "george",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gex7777/stxaviers/issues"
+  },
+  "homepage": "https://github.com/gex7777/stxaviers#readme"
+}
