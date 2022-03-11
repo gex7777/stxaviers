@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>St Xaviers Public School</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+</head>
+
+<body>
+    <nav class="navbar sticky" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="./stxavierslogo.png" width="112" height="28" />
+            </a>
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item " href="/"> Home </a>
+
+
+                <a class="navbar-item" href="mandatory_disclosure.html">
+                    Mandatory Disclosure
+                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        More
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item  is-active" href="about_us.html">
+                            About Us
+                        </a>
+                        <a class="navbar-item">
+                            Admissions
+                        </a>
+                        <a class="navbar-item"  href="https://www.facebook.com/messages/t/449483805084167"
+                        target="_blank">
+                            Contact
+                        </a>
+                        <a class="navbar-item">
+                            Photo gallery
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+    </nav>
+    <section class="hero is-medium is-link">
+        <div class="hero-body">
+            <p class="title">
+                “Every child deserves a champion—an adult who will never give up on them, who understands the power of
+                connection and insists that they become the best that they can possibly be.”
+            </p>
+            <p class="subtitle">
+                Rita Pierson
+            </p>
+        </div>
+    </section>
+    <section class=" section has-text-centered">
+        <h1 class="title">Faculty</h1>
+        <div class="">
+            <img src="/images/techers.jpg" style="max-width: 50%;  float: right; margin:0 0 1em 1em" alt="">
+            <p>St. Xavier’s School, can boast of a qualified and experienced team of teachers striving for the overall
+                development of their pupils. They live with the children and ensure the atmosphere of love and care.
+                Faith in the Fatherhood of God and Brotherhood of man, is instilled through Human Value classes,
+                prayers, stories and parables drawn from different religions of the world and through the very
+                atmosphere of the school. Value education and philosophy for children programme of Montclair State
+                University, USA are integrated with the entire school programme. Our Schools are rightly proud of a good
+                academic record over the years. Our class X students achieved 100% result during past three years under
+                CBSE.</p>
+
+        </div>
+
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          // Get all "navbar-burger" elements
+          const $navbarBurgers = Array.prototype.slice.call(
+            document.querySelectorAll(".navbar-burger"),
+            0
+          );
+  
+          // Check if there are any navbar burgers
+          if ($navbarBurgers.length > 0) {
+            // Add a click event on each of them
+            $navbarBurgers.forEach((el) => {
+              el.addEventListener("click", () => {
+                // Get the target from the "data-target" attribute
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+  
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                el.classList.toggle("is-active");
+                $target.classList.toggle("is-active");
+              });
+            });
+          }
+        });
+      </script>
+</body>
+
+</html>
