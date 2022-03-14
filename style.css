@@ -4,3 +4,15 @@
 .carousel {
   height: 400px;
 }
+
+.on-the-fly-behavior {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50% !important;
+}
+@media (max-width: 1087px) {
+  .on-the-fly-behavior {
+    width: 100% !important;
+  }
+}
